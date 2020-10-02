@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import themeObject from "./styles/theme";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
+import MuiThemeProvider from "@material-ui/core/styles/MuiThemeProvider";
+import ContextProvider from './context/ContextProvider';
+const theme = createMuiTheme(themeObject);
 
 ReactDOM.render(
-  <React.StrictMode>
+    <MuiThemeProvider theme={theme}>
+    <CssBaseline />
+    <ContextProvider>
     <App />
-  </React.StrictMode>,
+    </ContextProvider>
+    </MuiThemeProvider>,
   document.getElementById('root')
 );
 
