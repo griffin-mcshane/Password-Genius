@@ -2,7 +2,7 @@
   "name": "passwordgenius",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://griffin-mcshane.github.io/password-genius/",
+  "homepage": "https://griffin-mcshane.github.io/Password-Genius/",
   "dependencies": {
     "-": "0.0.1",
     "@fortawesome/react-fontawesome": "^0.1.11",
