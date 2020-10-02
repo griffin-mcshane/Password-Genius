@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/%7Bpasswordgenius%7D/static/css/main.c6173c1f.chunk.css",
-    "main.js": "/%7Bpasswordgenius%7D/static/js/main.29300ec6.chunk.js",
-    "main.js.map": "/%7Bpasswordgenius%7D/static/js/main.29300ec6.chunk.js.map",
-    "runtime-main.js": "/%7Bpasswordgenius%7D/static/js/runtime-main.ac399214.js",
-    "runtime-main.js.map": "/%7Bpasswordgenius%7D/static/js/runtime-main.ac399214.js.map",
-    "static/js/2.64d10b99.chunk.js": "/%7Bpasswordgenius%7D/static/js/2.64d10b99.chunk.js",
-    "static/js/2.64d10b99.chunk.js.map": "/%7Bpasswordgenius%7D/static/js/2.64d10b99.chunk.js.map",
-    "index.html": "/%7Bpasswordgenius%7D/index.html",
-    "precache-manifest.4f21a0b5c76e703aa5b61f2536092575.js": "/%7Bpasswordgenius%7D/precache-manifest.4f21a0b5c76e703aa5b61f2536092575.js",
-    "service-worker.js": "/%7Bpasswordgenius%7D/service-worker.js",
-    "static/css/main.c6173c1f.chunk.css.map": "/%7Bpasswordgenius%7D/static/css/main.c6173c1f.chunk.css.map",
-    "static/js/2.64d10b99.chunk.js.LICENSE.txt": "/%7Bpasswordgenius%7D/static/js/2.64d10b99.chunk.js.LICENSE.txt"
+    "main.css": "/password-genius/static/css/main.c6173c1f.chunk.css",
+    "main.js": "/password-genius/static/js/main.6228f7e3.chunk.js",
+    "main.js.map": "/password-genius/static/js/main.6228f7e3.chunk.js.map",
+    "runtime-main.js": "/password-genius/static/js/runtime-main.4c365622.js",
+    "runtime-main.js.map": "/password-genius/static/js/runtime-main.4c365622.js.map",
+    "static/js/2.64d10b99.chunk.js": "/password-genius/static/js/2.64d10b99.chunk.js",
+    "static/js/2.64d10b99.chunk.js.map": "/password-genius/static/js/2.64d10b99.chunk.js.map",
+    "index.html": "/password-genius/index.html",
+    "precache-manifest.4e1b9f08dd8eed643ca42326e0ba8198.js": "/password-genius/precache-manifest.4e1b9f08dd8eed643ca42326e0ba8198.js",
+    "service-worker.js": "/password-genius/service-worker.js",
+    "static/css/main.c6173c1f.chunk.css.map": "/password-genius/static/css/main.c6173c1f.chunk.css.map",
+    "static/js/2.64d10b99.chunk.js.LICENSE.txt": "/password-genius/static/js/2.64d10b99.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac399214.js",
+    "static/js/runtime-main.4c365622.js",
     "static/js/2.64d10b99.chunk.js",
     "static/css/main.c6173c1f.chunk.css",
-    "static/js/main.29300ec6.chunk.js"
+    "static/js/main.6228f7e3.chunk.js"
   ]
 }
