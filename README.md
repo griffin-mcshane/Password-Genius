@@ -1,6 +1,7 @@
 # Password-Genius
 A "catchy" password creator using the Genius API
 
+## About
 The most recent guidance on safe password practices from the National Institute of Standards and Technology (NIST) rolled back its previous assumptions on strict complexity requirements.  While the addition of special characters, numbers, and uppercase letters should create more secure passwords, NIST found that strict character requirements were counterproductive.  As password requirements increase in complexity, many users begin to write their password down near their desk or recycle old passwords with only minimal changes.  Additionally, the NIST recommended a shift away from hints or knowledge-based authentication (KBA).  While hints and KBAs are supposed to facilitate the use of complex passwords, NIST found that user hints more often resembled plain text passwords then they did ‘hints.’
 
 Despite companies’ best efforts to get employees to protect their systems, 37% of credential theft breaches used stolen or weak credentials.  The Verizon Business 2020 Data Breach Investigations Report further specified that 22% of data breaches were the result of human error.  With the ever-present threat of stolen information off the internet, there is an increased need of creating unique, complex passwords to protect privacy online.  Yet, there is also an equally pressing need to scale back some of these difficult passwords.
@@ -14,3 +15,6 @@ My goal for creating this app was not to create a new standard for corporate pas
 Creating unique passwords can be difficult, and it can be even more difficult to remember them.  For those early mornings at work when Windows requires you to change your password, mnemonic phrase and acronym techniques can help you overcome that creative block and save you a trip down to the IT department the following Monday.
 
 To conclude, I would like to thank Genius for opening up their API and making this app possible and ZwillGen for giving me the inspiration to sit down and create it.  Enjoy.
+
+###### Note
+Because this app extends the use of the Genius API Cross Origin Resource Sharing (CORS) is required for the app to function normally.  Some browsers may have CORS blocked by default (in JavaScript APIs). 
