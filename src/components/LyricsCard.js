@@ -19,6 +19,9 @@ const useStyles = makeStyles({
   scpos: {
     marginBottom: 12,
   },
+  title: {
+    margin: "45px 30px 45px 30px",
+  }
 });
 
 export default function SongCard() {
@@ -49,7 +52,7 @@ export default function SongCard() {
 >
     <Grid item>
     <Card className={classes.scroot}>
-    <Typography variant="overline" color="textSecondary" gutterBottom>
+    <Typography variant="overline" className={classes.title}>
         Lyrics
       </Typography>
       <CardContent>
@@ -61,7 +64,7 @@ export default function SongCard() {
     <BlankSpace />
     <Grid item>
     <Card className={classes.scroot}>
-    <Typography variant="overline" color="textSecondary" gutterBottom>
+    <Typography variant="overline" className={classes.title}>
         Password
       </Typography>
       <CardContent>

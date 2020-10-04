@@ -13,9 +13,6 @@ const useStyles = makeStyles({
   scroot: {
     minWidth: 275,
     backgroundColor: 'black',
-    something:{
-        h1: 'yes',
-    },
   },
   scartist: {
     color: 'white'
@@ -63,7 +60,6 @@ export default function SongCard() {
             display="flex" 
             width={200} height={200} 
             bgcolor="white"
-            styles={{margin: "70px"}}
             ml={50}
             mr={4}
         >
@@ -77,7 +73,7 @@ export default function SongCard() {
         <Typography variant="h6" className={classes.scartist}>
           {musician}
         </Typography>
-        <Button color="primary" onClick={handleClickOpen}>Change Song</Button>
+        <Button color="primary" onClick={handleClickOpen}>Choose Song</Button>
         </Grid>
         </Grid>
       </CardContent>

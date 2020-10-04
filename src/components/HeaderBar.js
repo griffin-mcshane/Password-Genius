@@ -29,10 +29,10 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             Password Genius
           </Typography>
-          <IconButton>
+          <IconButton  onClick={() => window.open("https://github.com/griffin-mcshane/Password-Genius")}>
                 <GitHubIcon />
             </IconButton>
-            <IconButton>
+            <IconButton  onClick={() => window.open("https://docs.genius.com/")}>
                 <MusicIcon />
             </IconButton>
         </Toolbar>
