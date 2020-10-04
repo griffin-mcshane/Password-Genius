@@ -12,7 +12,7 @@ const ContextProvider = ({ children }) => {
     const [open, setOpen] = useState(false);
     const [music, setMusic] = useState("To Get Started...");
     const [musician, setMusician] = useState("Select \"Choose Song\"");
-    const apiKey = "6eTFyhAS9yhaLVGoiViItvOCngJMXsDPuSzZV7dphRNThOvx0IQ4_SFOc4aaRKmO";
+    const apiKey = "oWke17J_jgUXQNl6VRCfC-HaUVKzaINOk1eKq3ms7e6XC6yMSl0ZaqXuR80Cz8Le";
     const optimizeQuery = true;
   
     const context = { 
