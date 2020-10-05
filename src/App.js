@@ -14,7 +14,9 @@ import Paper from '@material-ui/core/Paper';
 //Components
 import HeaderBar from "./components/HeaderBar";
 import SongHeader from "./components/SongHeader";
-import { getLyrics, searchSong, getAlbumArt } from "genius-lyrics-api";
+import getLyrics from "./functions/getLyrics";
+import searchSong from './functions/searchSong';
+import getAlbumArt from './functions/getAlbumArt';
 import Footer from './components/Footer';
 import LyricsCard from './components/LyricsCard';
 import BlankSpace from './components/BlankSpace';
