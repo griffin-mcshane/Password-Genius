@@ -13,7 +13,11 @@ import Paper from '@material-ui/core/Paper'
 const useStyles = makeStyles({
 //SongCard (sc) Styles
   scroot: {
-    backgroundColor: 'black'
+    backgroundColor: 'black',
+  },
+  grid:{
+    paddingTop: 10,
+    paddingBottom: 10
   },
   scalbum: {
     color: 'white'
@@ -62,6 +66,7 @@ export default function SongCard() {
   justify="center"
   alignItems="center"
   spacing={3}
+  className={classes.grid}
 >
   <Grid item>
         <img src={cAlbumArt} alt="" width={175} height={175}/>
