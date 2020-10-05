@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/Password-Genius/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Password-Genius/static/js/main.6acbb7cf.chunk.js",
-    "main.js.map": "/Password-Genius/static/js/main.6acbb7cf.chunk.js.map",
+    "main.js": "/Password-Genius/static/js/main.c98e70cb.chunk.js",
+    "main.js.map": "/Password-Genius/static/js/main.c98e70cb.chunk.js.map",
     "runtime-main.js": "/Password-Genius/static/js/runtime-main.c16cc3fa.js",
     "runtime-main.js.map": "/Password-Genius/static/js/runtime-main.c16cc3fa.js.map",
-    "static/js/2.41c94f82.chunk.js": "/Password-Genius/static/js/2.41c94f82.chunk.js",
-    "static/js/2.41c94f82.chunk.js.map": "/Password-Genius/static/js/2.41c94f82.chunk.js.map",
+    "static/js/2.c8d9b25e.chunk.js": "/Password-Genius/static/js/2.c8d9b25e.chunk.js",
+    "static/js/2.c8d9b25e.chunk.js.map": "/Password-Genius/static/js/2.c8d9b25e.chunk.js.map",
     "index.html": "/Password-Genius/index.html",
-    "precache-manifest.4c008de6ed384160f96b9e350442435d.js": "/Password-Genius/precache-manifest.4c008de6ed384160f96b9e350442435d.js",
+    "precache-manifest.900e26f946379a217258cfccb228a6b0.js": "/Password-Genius/precache-manifest.900e26f946379a217258cfccb228a6b0.js",
     "service-worker.js": "/Password-Genius/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/Password-Genius/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.41c94f82.chunk.js.LICENSE.txt": "/Password-Genius/static/js/2.41c94f82.chunk.js.LICENSE.txt"
+    "static/js/2.c8d9b25e.chunk.js.LICENSE.txt": "/Password-Genius/static/js/2.c8d9b25e.chunk.js.LICENSE.txt",
+    "static/media/geniusIconLogo.svg": "/Password-Genius/static/media/geniusIconLogo.2e306b30.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c16cc3fa.js",
-    "static/js/2.41c94f82.chunk.js",
+    "static/js/2.c8d9b25e.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.6acbb7cf.chunk.js"
+    "static/js/main.c98e70cb.chunk.js"
   ]
 }
