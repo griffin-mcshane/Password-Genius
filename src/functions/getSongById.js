@@ -6,7 +6,8 @@ const url = 'https://api.genius.com/songs/';
  * @param {(number|string)} id
  * @param {string} apiKey
  */
-module.exports = async function (id, apiKey) {
+
+export default async function (id, apiKey) {
 	if (!id) throw 'No id was provided';
 	try {
 		const headers = {

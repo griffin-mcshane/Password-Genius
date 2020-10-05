@@ -22,4 +22,4 @@ const getTitle = (title, artist) => {
 		.trim();
 };
 
-module.exports = { checkOptions, getTitle };
+export default { checkOptions, getTitle };

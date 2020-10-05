@@ -11,8 +11,7 @@ import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import AppContext from "./context/index";
 import Paper from '@material-ui/core/Paper';
-
-import {getLyrics, searchSong, getAlbumArt} from 'ggenius-lyrics-api';
+import {getLyrics, searchSong, getAlbumArt} from 'genius-lyrics-api';
 //Components
 import HeaderBar from "./components/HeaderBar";
 import SongHeader from "./components/SongHeader";

@@ -5,8 +5,9 @@ const extractLyrics = require('./utils/extractLyrics');
 /**
  * @param {({apiKey: string, title: string, artist: string, optimizeQuery: boolean}|string)} arg - options object, or Genius URL
  */
-module.exports = async function (arg) {
-	try {
+
+export default async function (arg) {
+try {
 		if (arg && typeof arg === 'string') {
 			let lyrics = await extractLyrics(arg);
 			return lyrics;

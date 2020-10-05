@@ -5,7 +5,8 @@ const { checkOptions } = require('./utils');
 /**
  * @param {{apiKey: string, title: string, artist: string, optimizeQuery: boolean}} options
  */
-module.exports = async function (options) {
+
+export default async function (options) {
 	try {
 		checkOptions(options);
 		let results = await searchSong(options);

@@ -6,7 +6,8 @@ const searchUrl = 'https://api.genius.com/search?q=';
 /**
  * @param {{apiKey: string, title: string, artist: string, optimizeQuery: boolean}} options
  */
-module.exports = async function (options) {
+
+export default async function (options) {
 	try {
 		checkOptions(options);
 		let { apiKey, title, artist, optimizeQuery = false } = options;

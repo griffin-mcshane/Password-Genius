@@ -1,12 +1,13 @@
 const axios = require('axios');
 const cio = require('cheerio-without-node-native');
-const proxy = 'https://cors-anywhere.herokuapp.com/';
+//const proxy = 'https://cors-anywhere.herokuapp.com/';
 /**
  * @param {string} url - Genius URL
  */
-module.exports = async function (url) {
+
+export default async function () {
 	try {
-		let { data } = await axios.get(proxy +url);
+		let { data } = await axios.get(url);
 		const $ = cio.load(data);
 		let lyrics = $('div[class="lyrics"]').text().trim();
 		if (!lyrics) {
