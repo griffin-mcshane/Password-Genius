@@ -1,4 +1,3 @@
-import './programme.css'
 export default {
     palette: {
         primary: {
@@ -18,7 +17,6 @@ export default {
     },
     typography: {
         fontFamily: [
-            'Programme Normal',
             'Arial',
             'sans-serif',
         ].join(','),
