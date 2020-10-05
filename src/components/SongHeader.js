@@ -14,14 +14,21 @@ const useStyles = makeStyles({
     minWidth: 275,
     backgroundColor: 'black',
   },
-  scartist: {
-    color: 'white'
-  },
   scalbum: {
     color: 'white'
   },
   scpos: {
     marginBottom: 12,
+  },
+  songTitle: {
+    lineHeight: 1.125,
+    fontWeight: 700,
+    wordBreak: "break-word",
+  },
+  artistTitle: {
+    lineHeight: 1.45,
+    fontWeight: 700,
+    color: 'white', 
   },
 });
 
@@ -67,10 +74,10 @@ export default function SongCard() {
         </Box>
         </Grid>
         <Grid item>
-        <Typography variant="h4" color="primary">
+        <Typography variant="h4" color="primary" className={classes.songTitle}>
           {music}
         </Typography>
-        <Typography variant="h6" className={classes.scartist}>
+        <Typography variant="h6" className={classes.artistTitle}>
           {musician}
         </Typography>
         <Button color="primary" onClick={handleClickOpen}>Choose Song</Button>

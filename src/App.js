@@ -89,7 +89,7 @@ const [results, setResults] = useState({});
     setLoading(true);
 
     getLyrics(options).then((lyrics) => {
-      const chorus = lyrics.split("Chorus]").pop().split("[")[0];
+      const chorus = lyrics.split("Chorus").pop().split("[")[0];
       const acronym = chorus
         .split(/\s/)
         .reduce((response, word) => (response += word.slice(0, 1)), "");
@@ -116,7 +116,7 @@ const [results, setResults] = useState({});
         aria-labelledby="form-dialog-title"
         disablePortal
       >
-        <DialogTitle id="form-dialog-title">Search</DialogTitle>
+        <DialogTitle id="form-dialog-title">Choose Song</DialogTitle>
         <DialogContent>
           <DialogContentText>
             Only a song title is required, but using the artist name will help

@@ -8,7 +8,8 @@ import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import AppContext from "../context/index";
-import BlankSpace from './BlankSpace'
+import BlankSpace from './BlankSpace';
+import Skeleton from '@material-ui/lab/Skeleton';
 const useStyles = makeStyles({
 //SongCard (sc) Styles
   scroot: {
@@ -19,9 +20,29 @@ const useStyles = makeStyles({
   scpos: {
     marginBottom: 12,
   },
-  title: {
+  sectionheaders:{
     margin: "45px 30px 45px 30px",
-  }
+    color: "#9a9a9a",
+    fontSize: ".75rem",
+    letterSpacing: ".04em",
+    fontWeight: 400,
+  },
+  outputtext: {
+    backgroundColor: "#FFFF00"
+  },
+  lyricsAndPassword: {
+    fontWeight: 100,
+    wordBreak: "break-word",
+    lineHeight: "1.7em",
+    fontStyle: "italic",
+  },
+  passwordOut: {
+    fontSize: "1rem",
+    fontWeight: 400,
+    lineJeight: 1,
+    letterSpacing: "1px",
+    fontStyle: "bold",
+  },
 });
 
 export default function SongCard() {
@@ -52,11 +73,11 @@ export default function SongCard() {
 >
     <Grid item>
     <Card className={classes.scroot}>
-    <Typography variant="overline" className={classes.title}>
+    <Typography variant="overline" className={classes.sectionheaders}>
         Lyrics
       </Typography>
       <CardContent>
-      <Typography variant="body1">{songLyrics}</Typography>
+    <Typography variant="body1" className={classes.lyricsAndPassword}>{songLyrics}</Typography>
       </CardContent>
       <CardActions className={classes.scpos} />
     </Card>
@@ -64,11 +85,11 @@ export default function SongCard() {
     <BlankSpace />
     <Grid item>
     <Card className={classes.scroot}>
-    <Typography variant="overline" className={classes.title}>
+    <Typography variant="overline" className={classes.sectionheaders}>
         Password
       </Typography>
       <CardContent>
-       <Typography variant="body1">{password}</Typography>
+       <Typography variant="body1" className={classes.passwordOut}>{password}</Typography>
       </CardContent>
       <CardActions className={classes.scpos} />
     </Card>

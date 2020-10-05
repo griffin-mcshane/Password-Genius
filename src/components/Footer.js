@@ -18,11 +18,15 @@ const useStyles = makeStyles({
   scartist: {
     color: 'white'
   },
-  scalbum: {
-    color: 'white'
+  footTitleOne: {
+    lineHeight: 1.125,
+    fontWeight: 700,
+    wordBreak: "break-word",
   },
-  scpos: {
-    marginBottom: 12,
+  footTitleTwo: {
+    lineHeight: 1.45,
+    fontWeight: 700,
+    color: 'white', 
   },
 });
 
@@ -31,13 +35,13 @@ export default function Footer() {
 
   return (
       <Box width={1} justifyContent="center" className={classes.scroot} p={2}>
-      <Typography variant="body2" align="center" className={classes.scartist}>
-          Data from Genius API
+      <Typography variant="body2" align="center" className={classes.footTitleTwo} gutterBottom>
+          Data from Genius API.
         </Typography>
-        <Typography variant="body1" align="center" className={classes.scartist}>
+        <Typography variant="body1" align="center" color="primary" className={classes.footTitleOne} gutterBottom>
           Created by Griffin McShane.
         </Typography>
-        <Typography variant="body2" align="center" className={classes.scartist}>
+        <Typography variant="body2" align="center" className={classes.footTitleTwo}>
           Special Thanks to ZWillGen.
         </Typography>
       </Box>
