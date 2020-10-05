@@ -13,7 +13,7 @@ import Skeleton from '@material-ui/lab/Skeleton';
 const useStyles = makeStyles({
 //SongCard (sc) Styles
   scroot: {
-    width: 800,
+    width: 600,
     minHeight: 100,
     flex: 'wrap',
   },

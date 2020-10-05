@@ -8,11 +8,12 @@ import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import AppContext from "../context/index";
+import Paper from '@material-ui/core/Paper'
+
 const useStyles = makeStyles({
 //SongCard (sc) Styles
   scroot: {
-    minWidth: 275,
-    backgroundColor: 'black',
+    backgroundColor: 'black'
   },
   scalbum: {
     color: 'white'
@@ -54,24 +55,16 @@ export default function SongCard() {
   };
 
   return (
-    <Card className={classes.scroot}>
-      <CardContent>
-        <Grid
-            container
-            direction="row"
-            justify="flex-start"
-            alignItems="center"
-        >
-            <Grid item>
-        <Box
-            display="flex" 
-            width={200} height={200} 
-            bgcolor="white"
-            ml={50}
-            mr={4}
-        >
-          <img src={cAlbumArt} alt="" alt="" width={200} height={200}/>
-        </Box>
+    <Paper className={classes.scroot}>
+      <Grid
+  container
+  direction="row"
+  justify="center"
+  alignItems="center"
+  spacing={3}
+>
+  <Grid item>
+        <img src={cAlbumArt} alt="" width={175} height={175}/>
         </Grid>
         <Grid item>
         <Typography variant="h4" color="primary" className={classes.songTitle}>
@@ -82,11 +75,7 @@ export default function SongCard() {
         </Typography>
         <Button color="primary" onClick={handleClickOpen}>Choose Song</Button>
         </Grid>
-        </Grid>
-      </CardContent>
-      <CardActions>
-
-      </CardActions>
-    </Card>
+        </Grid> 
+    </Paper>
   );
 }
