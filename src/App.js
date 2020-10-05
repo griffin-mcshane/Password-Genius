@@ -18,6 +18,8 @@ import SongHeader from "./components/SongHeader";
 import Footer from './components/Footer';
 import LyricsCard from './components/LyricsCard';
 import BlankSpace from './components/BlankSpace';
+import * as cors from 'cors';
+
 // Styles //
 const useStyles = makeStyles((theme) => ({
   contentGrid: {
@@ -27,10 +29,8 @@ const useStyles = makeStyles((theme) => ({
   
 }));
 
-
-
 export default function App() {
-
+  const corsHandler = cors({origin: true});
   const appContext = useContext(AppContext);
   const {
     setId,
@@ -78,7 +78,7 @@ const [results, setResults] = useState({});
           setMusician(artist);
     });
     setLoading(false);
-    getAlbumArt(options).then((albumArt) => {
+  getAlbumArt(options).then((albumArt) => {
         setCAlbumArt(albumArt);
     });
     generateLyricsAndPassword();
@@ -88,7 +88,7 @@ const [results, setResults] = useState({});
     const options = {title, artist, apiKey, optimizeQuery};
     setLoading(true);
 
-    getLyrics(options).then((lyrics) => {
+  getLyrics(options).then((lyrics) => {
       const chorus = lyrics.split("Chorus").pop().split("[")[0];
       const acronym = chorus
         .split(/\s/)
