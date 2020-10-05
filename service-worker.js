@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Password-Genius/precache-manifest.c859852816298b9135f37660eabe89b4.js"
+  "/Password-Genius/precache-manifest.bf96c740f7895d8aeba7eec4c653eeef.js"
 );
 
 self.addEventListener('message', (event) => {

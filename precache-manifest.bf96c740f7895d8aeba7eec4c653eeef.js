@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "173af4f277c25aae91e35bb419cc53c3",
+    "revision": "0d43bf044f752573f914c835e7d24157",
     "url": "/Password-Genius/index.html"
   },
   {
-    "revision": "96c9d1a6a33573a8037e",
+    "revision": "d1d3d8a4a3116898ba22",
     "url": "/Password-Genius/static/css/main.c6173c1f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Password-Genius/static/js/2.64d10b99.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "96c9d1a6a33573a8037e",
-    "url": "/Password-Genius/static/js/main.4667893d.chunk.js"
+    "revision": "d1d3d8a4a3116898ba22",
+    "url": "/Password-Genius/static/js/main.d62d1882.chunk.js"
   },
   {
     "revision": "4bd1d97e28058794b1ec",
