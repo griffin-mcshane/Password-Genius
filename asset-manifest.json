@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Password-Genius/static/css/main.c6173c1f.chunk.css",
-    "main.js": "/Password-Genius/static/js/main.d62d1882.chunk.js",
-    "main.js.map": "/Password-Genius/static/js/main.d62d1882.chunk.js.map",
+    "main.css": "/Password-Genius/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Password-Genius/static/js/main.059c2f52.chunk.js",
+    "main.js.map": "/Password-Genius/static/js/main.059c2f52.chunk.js.map",
     "runtime-main.js": "/Password-Genius/static/js/runtime-main.c16cc3fa.js",
     "runtime-main.js.map": "/Password-Genius/static/js/runtime-main.c16cc3fa.js.map",
-    "static/js/2.64d10b99.chunk.js": "/Password-Genius/static/js/2.64d10b99.chunk.js",
-    "static/js/2.64d10b99.chunk.js.map": "/Password-Genius/static/js/2.64d10b99.chunk.js.map",
+    "static/js/2.c761865f.chunk.js": "/Password-Genius/static/js/2.c761865f.chunk.js",
+    "static/js/2.c761865f.chunk.js.map": "/Password-Genius/static/js/2.c761865f.chunk.js.map",
     "index.html": "/Password-Genius/index.html",
-    "precache-manifest.bf96c740f7895d8aeba7eec4c653eeef.js": "/Password-Genius/precache-manifest.bf96c740f7895d8aeba7eec4c653eeef.js",
+    "precache-manifest.fd27b21f20ab4a8e35b36ac76680decb.js": "/Password-Genius/precache-manifest.fd27b21f20ab4a8e35b36ac76680decb.js",
     "service-worker.js": "/Password-Genius/service-worker.js",
-    "static/css/main.c6173c1f.chunk.css.map": "/Password-Genius/static/css/main.c6173c1f.chunk.css.map",
-    "static/js/2.64d10b99.chunk.js.LICENSE.txt": "/Password-Genius/static/js/2.64d10b99.chunk.js.LICENSE.txt"
+    "static/css/main.5ecd60fb.chunk.css.map": "/Password-Genius/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.c761865f.chunk.js.LICENSE.txt": "/Password-Genius/static/js/2.c761865f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c16cc3fa.js",
-    "static/js/2.64d10b99.chunk.js",
-    "static/css/main.c6173c1f.chunk.css",
-    "static/js/main.d62d1882.chunk.js"
+    "static/js/2.c761865f.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.059c2f52.chunk.js"
   ]
 }
