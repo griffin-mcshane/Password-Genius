@@ -1,6 +1,8 @@
 # Password-Genius
 A "catchy" password creator using the Genius API
 
+## Demo
+![](https://github.com/griffin-mcshane/Password-Genius/blob/master/src/demo.gif)
 ###### Note
 Because this app extends the use of the Genius API Cross Origin Resource Sharing (CORS) is required for the app to function normally.  Some browsers may have CORS blocked by default (in JavaScript APIs). Since this is a client browser issue, you must make sure that Cross-Origin XMLHttpRequests is allowed for this app to properly function.  Find out how to set up your browser to allow CORS [here](https://medium.com/swlh/avoiding-cors-errors-on-localhost-in-2020-5a656ed8cefa).
 
