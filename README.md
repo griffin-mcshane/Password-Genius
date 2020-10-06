@@ -3,8 +3,7 @@ A "catchy" password creator using the Genius API
 
 ## Demo
 ![](https://github.com/griffin-mcshane/Password-Genius/blob/master/src/demo.gif)
-###### Note
-Because this app extends the use of the Genius API Cross Origin Resource Sharing (CORS) is required for the app to function normally.  Some browsers may have CORS blocked by default (in JavaScript APIs). Since this is a client browser issue, you must make sure that Cross-Origin XMLHttpRequests is allowed for this app to properly function.  Find out how to set up your browser to allow CORS [here](https://medium.com/swlh/avoiding-cors-errors-on-localhost-in-2020-5a656ed8cefa).
+	**Note:** Because this app extends the use of the Genius API Cross Origin Resource Sharing (CORS) is required for the app to function normally.  Some browsers may have CORS blocked by default (in JavaScript APIs). Since this is a client browser issue, you must make sure that Cross-Origin XMLHttpRequests is allowed for this app to properly function.  Find out how to set up your browser to allow CORS [here](https://medium.com/swlh/avoiding-cors-errors-on-localhost-in-2020-5a656ed8cefa).
 
 ## About
 The most recent guidance on safe password practices from the National Institute of Standards and Technology (NIST) rolled back its previous assumptions on strict complexity requirements.  While the addition of special characters, numbers, and uppercase letters should create more secure passwords, NIST found that strict character requirements were counterproductive.  As password requirements increase in complexity, many users begin to write their password down near their desk or recycle old passwords with only minimal changes.  Additionally, the NIST recommended a shift away from hints or knowledge-based authentication (KBA).  While hints and KBAs are supposed to facilitate the use of complex passwords, NIST found that user hints more often resembled plain text passwords then they did ‘hints.’
