@@ -19,4 +19,4 @@ Creating unique passwords can be difficult, and it can be even more difficult to
 
 To conclude, I would like to thank Genius for opening up their API and making this app possible and ZwillGen for giving me the inspiration to sit down and create it.  Enjoy.
 
-![Example Image One](https://pasteboard.co/JuomJPO.png)
+[Example Image One](https://pasteboard.co/JuomJPO.png)
