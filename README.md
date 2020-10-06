@@ -18,3 +18,5 @@ My goal for creating this app was not to create a new standard for corporate pas
 Creating unique passwords can be difficult, and it can be even more difficult to remember them.  For those early mornings at work when Windows requires you to change your password, mnemonic phrase and acronym techniques can help you overcome that creative block and save you a trip down to the IT department the following Monday.
 
 To conclude, I would like to thank Genius for opening up their API and making this app possible and ZwillGen for giving me the inspiration to sit down and create it.  Enjoy.
+
+![Example Image One](https://pasteboard.co/JuomJPO.png)
