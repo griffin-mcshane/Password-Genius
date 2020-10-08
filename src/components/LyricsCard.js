@@ -1,23 +1,23 @@
 import React, {useContext} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import AppContext from "../context/index";
+//Material-UI
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
-import Button from '@material-ui/core/Button';
-import AppContext from "../context/index";
+import Typography from '@material-ui/core/Typography';
+//Components
 import BlankSpace from './BlankSpace';
-import Skeleton from '@material-ui/lab/Skeleton';
+//Styling
+import { makeStyles } from '@material-ui/core/styles';
+
 const useStyles = makeStyles({
-//SongCard (sc) Styles
-  scroot: {
+  root: {
     width: 600,
     minHeight: 100,
     flex: 'wrap',
   },
-  scpos: {
+  pos: {
     marginBottom: 12,
   },
   sectionheaders:{
@@ -27,10 +27,7 @@ const useStyles = makeStyles({
     letterSpacing: ".04em",
     fontWeight: 400,
   },
-  outputtext: {
-    backgroundColor: "#FFFF00"
-  },
-  lyricsAndPassword: {
+  lyricsOut: {
     fontWeight: 100,
     wordBreak: "break-word",
     lineHeight: "1.7em",
@@ -49,19 +46,7 @@ export default function SongCard() {
   const classes = useStyles();
 
   const appContext = useContext(AppContext);
-  const {
-    albumArt,
-    title,
-    artist,
-    loading,
-    setLoading,
-    open,
-    setOpen,
-    music,
-    musician,
-    password,
-    songLyrics,
-  } = appContext;
+  const {password, lyrics} = appContext;
 
   return (
     <Grid
@@ -72,26 +57,26 @@ export default function SongCard() {
   overflow="hidden"
 >
     <Grid item>
-    <Card className={classes.scroot}>
+    <Card className={classes.root}>
     <Typography variant="overline" className={classes.sectionheaders}>
         Lyrics
       </Typography>
       <CardContent>
-    <Typography variant="body1" className={classes.lyricsAndPassword}>{songLyrics}</Typography>
+    <Typography variant="body1" className={classes.lyricsOut}>{lyrics}</Typography>
       </CardContent>
-      <CardActions className={classes.scpos} />
+      <CardActions className={classes.pos} />
     </Card>
     </Grid>
     <BlankSpace />
     <Grid item>
-    <Card className={classes.scroot}>
+    <Card className={classes.root}>
     <Typography variant="overline" className={classes.sectionheaders}>
         Password
       </Typography>
       <CardContent>
        <Typography variant="body1" className={classes.passwordOut}>{password}</Typography>
       </CardContent>
-      <CardActions className={classes.scpos} />
+      <CardActions className={classes.pos} />
     </Card>
     </Grid>
     </Grid>

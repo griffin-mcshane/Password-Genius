@@ -1,15 +1,17 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
+//Material-UI
 import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import IconButton from "@material-ui/core/IconButton";
-import MusicIcon from "@material-ui/icons/MusicNote";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import logo from "./pgLogo.png";
-import iconLogo from "./geniusIconLogo.svg";
 import Box from "@material-ui/core/Box";
 import Icon from "@material-ui/core/Icon";
+import IconButton from "@material-ui/core/IconButton";
+import Toolbar from "@material-ui/core/Toolbar";
+//Icons
+import GitHubIcon from "@material-ui/icons/GitHub";
+//Assets
+import iconLogo from "./assets/geniusIconLogo.svg";
+import logo from "./assets/pgLogo.png";
+//Styling
+import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -49,7 +51,7 @@ export default function ButtonAppBar() {
           </IconButton>
           <IconButton onClick={() => window.open("https://docs.genius.com/")}>
             <Icon classes={classes.iconRoot}>
-              <img className={classes.imageIcon} src={iconLogo} />
+              <img className={classes.imageIcon} src={iconLogo} alt="" />
             </Icon>
           </IconButton>
         </Toolbar>

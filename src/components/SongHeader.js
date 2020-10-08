@@ -1,29 +1,20 @@
-import React, {useContext} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
+import React, {useContext, useRef} from 'react';
+import AppContext from "../context/index";
+//Material-UI
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
-import AppContext from "../context/index";
-import Paper from '@material-ui/core/Paper'
+import Typography from '@material-ui/core/Typography';
+import Paper from '@material-ui/core/Paper';
+//Styling
+import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
-//SongCard (sc) Styles
   scroot: {
     backgroundColor: 'black',
   },
   grid:{
     paddingTop: 10,
     paddingBottom: 10
-  },
-  scalbum: {
-    color: 'white'
-  },
-  scpos: {
-    marginBottom: 12,
   },
   songTitle: {
     lineHeight: 1.125,
@@ -43,21 +34,15 @@ export default function SongCard() {
   const appContext = useContext(AppContext);
   const {
     cAlbumArt,
-    title,
-    artist,
-    loading,
-    setLoading,
-    open,
     setOpen,
+    albumArt,
     music,
-    musician,
-    songLyrics
+    musician
   } = appContext;
   
   const handleClickOpen = () => {
     setOpen(true);
   };
-
   return (
     <Paper className={classes.scroot}>
       <Grid
@@ -69,7 +54,7 @@ export default function SongCard() {
   className={classes.grid}
 >
   <Grid item>
-        <img src={cAlbumArt} alt="" width={175} height={175}/>
+        <img src={albumArt} alt="" width={175} height={175}/>
         </Grid>
         <Grid item>
         <Typography variant="h4" color="primary" className={classes.songTitle}>
